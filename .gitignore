@@ -1,0 +1,41 @@
+# Eclipse
+.settings/
+.project
+.classpath
+
+# LibGDX build files
+/build/
+*/build/
+android/assets/
+html/war/
+html/build/
+desktop/build/
+core/build/
+ios/build/
+
+# Gradle
+.gradle/
+build/
+bin/
+out/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# LibGDX Android
+android/local.properties
