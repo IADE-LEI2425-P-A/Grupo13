@@ -1,9 +1,9 @@
 # Grupo 13 – Programação e Algoritmos
 
-## Trabalho Individual
+## Trabalho Individual – Dungeon Crawler
 
-**Nome:** André Nascimento Duarte  
-**Número de Aluno:** 20241984  
+**Nome:** André Duarte  
+**Número de Aluno:** [20241984]  
 **Curso:** Licenciatura em Engenharia Informática  
 **Unidade Curricular:** Programação e Algoritmos  
 **Ano Letivo:** 2024/2025  
@@ -11,7 +11,22 @@
 
 ## Descrição
 
-Este repositório contém o desenvolvimento do projeto individual no âmbito da unidade curricular de Programação e Algoritmos. O trabalho consiste na implementação de um jogo do tipo *Dungeon Crawler*, de acordo com os requisitos apresentados no briefing da disciplina.
+Este repositório contém o projeto individual da unidade curricular de Programação e Algoritmos. O objetivo é desenvolver um jogo 2D do tipo *Dungeon Crawler*, utilizando **Java** e a biblioteca **libGDX**, aplicando conceitos de programação orientada a objetos (OOP), estruturas de dados e padrões de design.
+
+## Conceitos Aplicados
+
+- Pilares da Programação Orientada a Objetos (OOP)  
+- Estruturas de dados: listas, árvores, grafos  
+- Algoritmos de pathfinding (ex: A*)  
+- Design Patterns (ex: Entity-Component, Factory)  
+- Princípios DRY e SOLID
+
+## Tecnologias Utilizadas
+
+- Linguagem: **Java**  
+- Framework: **libGDX**  
+- IDE recomendada: **Eclipse** (ou IntelliJ IDEA)  
+- Sistema de controlo de versões: **Git/GitHub**
 
 ## Estrutura Esperada do Projeto
 
@@ -19,6 +34,7 @@ Este repositório contém o desenvolvimento do projeto individual no âmbito da 
 - `assets/` – Recursos gráficos, áudio ou outros  
 - `doc/` – Documentação complementar (relatórios, diagramas, etc.)  
 - `README.md` – Esta descrição
+- `.gitignore` – Exclusões do Git
 
 ## Link do repositório
 
