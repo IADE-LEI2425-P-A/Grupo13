@@ -28,11 +28,11 @@ public class Entity {
 
         // Regista o componente se for atualizável ou renderizável
         if (component instanceof IUpdatable updatable && updatable.canUpdate()) {
-            System.out.println("Registrado como Updatable");
+            System.out.println("Registado como Updatable");
         }
 
         if (component instanceof IRenderable renderable && renderable.canRender()) {
-            System.out.println("Registrado como Renderable");
+            System.out.println("Registado como Renderable");
         }
     }
 

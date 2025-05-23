@@ -28,7 +28,7 @@ public class PlayerEntity extends Entity {
             Texture playerTexture = new Texture(Gdx.files.internal("sprites/player.png"));
             addComponent(new RenderComponent(playerTexture));
         } catch (Exception e) {
-            System.err.println("❌ ERRO AO CARREGAR 'sprites/player.png': " + e.getMessage());
+            System.err.println("ERRO AO CARREGAR 'sprites/player.png': " + e.getMessage());
         }
 
         // Pathfinding

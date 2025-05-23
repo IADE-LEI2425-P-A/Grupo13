@@ -5,7 +5,7 @@ import java.util.Map;
 
 /**
  * Representa um grafo composto por vários nós do tipo Node.
- * Usado para armazenar e navegar o mapa do jogo (ex: para pathfinding).
+ * Usado para armazenar e navegar o mapa do jogo, exemplo: para pathfinding.
  */
 public class Graph {
 

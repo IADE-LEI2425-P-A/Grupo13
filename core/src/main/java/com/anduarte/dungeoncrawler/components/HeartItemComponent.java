@@ -8,7 +8,7 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 /**
  * Componente que representa um item de coração recolhível no mundo do jogo.
  * Quando o jogador colide com esta entidade, o item é recolhido
- * e dispara um evento do tipo ITEM_COLLECTED.
+ * e lança um evento do tipo ITEM_COLLECTED.
  */
 public class HeartItemComponent extends Component implements IRenderable {
 
@@ -57,7 +57,7 @@ public class HeartItemComponent extends Component implements IRenderable {
     }
 
     /**
-     * Liberta a textura da memória (opcional).
+     * Liberta a textura da memória.
      */
     public void dispose() {
         texture.dispose();

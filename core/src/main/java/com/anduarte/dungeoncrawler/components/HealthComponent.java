@@ -1,7 +1,7 @@
 package com.anduarte.dungeoncrawler.components;
 
 /**
- * Componente responsável por armazenar e gerir a vida de uma entidade (ex: jogador).
+ * Componente responsável por armazenar e gerir a vida de uma entidade.
  * Pode ser utilizado para atualizar a interface de jogo ou acionar lógica de game over.
  */
 public class HealthComponent extends Component {

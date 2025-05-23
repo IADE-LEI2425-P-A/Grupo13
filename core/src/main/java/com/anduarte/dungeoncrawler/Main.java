@@ -43,7 +43,7 @@ public class Main extends ApplicationAdapter {
             background.addComponent(new BackgroundComponent(backgroundTexture));
             world.addEntityToBack(background); // Adiciona ao início da lista (renderizado primeiro)
         } catch (Exception e) {
-            System.err.println("⚠️ ERRO ao carregar background.png (opcional): " + e.getMessage());
+            System.err.println("⚠ERRO ao carregar background.png (opcional): " + e.getMessage());
         }
 
         // Cria a entidade da câmara que segue o jogador

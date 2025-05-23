@@ -5,8 +5,8 @@ import com.anduarte.dungeoncrawler.entities.Entity;
 
 /**
  * Componente que permite associar uma câmara a uma entidade.
- * A câmara segue automaticamente a posição de outra entidade alvo.
- * Normalmente usada para seguir o jogador.
+ * A câmara segue automaticamente a posição de entidade alvo.
+ * Neste caso usada para seguir o jogador.
  */
 public class CameraComponent extends Component implements IUpdatable {
 
